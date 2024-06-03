@@ -86,5 +86,5 @@ data:
         - alert: KubernetesNetworkUnavailable
           expr: 'kube_node_status_condition{condition="NetworkUnavailable",status="true"} == 1'
 
-then run command run command 
+then run command to apply :
 > kubectl apply -f prometheus-server prometheus-alertmanager
