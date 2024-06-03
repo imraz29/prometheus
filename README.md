@@ -4,7 +4,7 @@ first search for prometheus configmaps in the namespace ex-
 > kubectl get cm -n prometheus
 
 edit the prometheus-alertmanager.yml 
-example
+example> 
 
 apiVersion: v1
 data:
@@ -12,9 +12,9 @@ data:
     global:
       resolve_timeout: 1m
       smtp_smarthost: 'smtp.office365.com:587'
-      smtp_from: 'kiran@pixalive.me'
-      smtp_auth_username: 'kiran@pixalive.me'
-      smtp_auth_password: 'Pascalpass@167^'
+      smtp_from: 'imraz@pixalive.me'
+      smtp_auth_username: 'imraz@pixalive.me'
+      smtp_auth_password: 'Sheeraz@7619'
       smtp_require_tls: true
 
     route:
